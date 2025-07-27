@@ -17,8 +17,8 @@ The system ensures data integrity and user involvement through Field Validation,
 1.Install Python
 
 2. Install Required Python Packages
-3. 
-This project requires the cx_Oracle package to connect to Oracle databases.
+   
+3. This project requires the cx_Oracle package to connect to Oracle databases.
 pip install cx_Oracle
 
 3.Oracle Database Access
