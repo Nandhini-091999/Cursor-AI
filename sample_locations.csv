@@ -1,0 +1,4 @@
+LOCATION_ID,LOCATION_NAME,SITE_CODE,LOCATION_TYPE,CREATED_BY,CREATED_DATE
+101,Main Warehouse,WH1,Warehouse,Nandhini,2024-05-10 14:23:45
+102,Regional Office,RO1,Office,Nandhini,2024-05-10 14:25:10
+103,Distribution Center,DC1,Center,Nandhini,2024-05-10 14:27:00 
