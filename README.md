@@ -2,19 +2,27 @@ Location creation
 
 **Description :**
 
-This project is to creation Location in system. It provides a command-line interface to create and manage location records in an Oracle database. 
+This enhanced version of the Warehouse AI Assistant automatically generates location IDs based on zone and aisle information provided by users.
 
-The system ensures data integrity and user involvement through Field Validation,Duplicate Checks,User Approval and confirmation.
+This eliminates the need for manual location ID entry and reduces errors.
+
 
 **Key Features**
 
-1.Connects securely to an Oracle database.
+1. Auto-Generated Fields:
+ 
+   LOCATION_ID: Automatically generated based on Zone + Aisle + Sequential Number
+- 
+   SITE_CODE: Automatically generated based on Zone mapping
 
-2.Validates user input and database constraints.
+2. User-Provided Fields
 
-3.Interactive CLI workflow for data entry and approval.
+- LOCATION_NAME: Name of the storage location
+- ZONE: Warehouse zone (A, B, C, etc.)
+- AISLE: Aisle number (01, 02, etc.)
+- LOCATION_TYPE: Type of location (Warehouse, Storage, Shelf, etc.)
 
-3.Tracks metadata such as CREATED_BY and CREATED_DATE for each location.
+3.Location ID Generation Logic
 
 **Setup instruction**
 
@@ -31,6 +39,22 @@ Ensure you have access to an Oracle database and the credentials (username, pass
 
 **Usage**
 
-Enter natural language instruction whether its prompted.
+ **User Experience**
+ 
+- Simplified Input: Users only need to provide zone and aisle
+- 
+- Reduced Errors: No manual location ID entry
+- 
+- Consistent Format: All location IDs follow the same pattern
+- 
+- Automatic Sequencing: No need to track next available numbers
 
-This script will insert the large number of data in location table and reduces the manually efforts.
+**System Benefits**
+
+- Data Integrity: Ensures unique location IDs
+- 
+- Scalability: Supports unlimited locations per zone/aisle
+- 
+- Maintainability: Easy to understand and modify
+- 
+- Audit Trail: Clear tracking of auto-generated vs. user-provided data
