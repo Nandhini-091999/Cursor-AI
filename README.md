@@ -12,7 +12,7 @@ This eliminates the need for manual location ID entry and reduces errors.
 1. Auto-Generated Fields:
  
    LOCATION_ID: Automatically generated based on Zone + Aisle + Sequential Number
-- 
+
    SITE_CODE: Automatically generated based on Zone mapping
 
 2. User-Provided Fields
@@ -42,19 +42,13 @@ Ensure you have access to an Oracle database and the credentials (username, pass
  **User Experience**
  
 - Simplified Input: Users only need to provide zone and aisle
-- 
 - Reduced Errors: No manual location ID entry
-- 
 - Consistent Format: All location IDs follow the same pattern
-- 
 - Automatic Sequencing: No need to track next available numbers
 
 **System Benefits**
 
 - Data Integrity: Ensures unique location IDs
-- 
 - Scalability: Supports unlimited locations per zone/aisle
-- 
 - Maintainability: Easy to understand and modify
-- 
 - Audit Trail: Clear tracking of auto-generated vs. user-provided data
